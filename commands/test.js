@@ -7,7 +7,7 @@ module.exports.run = async (client, message, args) => {
     if(!message.content.startsWith(prefix)) return;
 
     let bye = new Discord.MessageEmbed()
-    .setDescription("BYE")
+    .setColor("Renbow")
     .setImage("https://cdn.discordapp.com/attachments/817299737338183713/817332036330192896/bye_bye.gif")
 
       message.channel.send(bye);
