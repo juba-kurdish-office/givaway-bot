@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const { getClient } = require("../../config");
+const { getClient } = require("../config.json");
 
 module.exports = {
     name: 'bank',
