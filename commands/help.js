@@ -14,7 +14,7 @@ module.exports.run = async (client, message, args) => {
       .addField("Examples", "g!start #giveaway 5m 1 Testing\ng!end Testing\ng!reroll Testing")
       .addField("Utility", "ping, invite", true)
       .addField("ℹ Information ℹ", "stats", true)
-      .addField("Check out", "[This Channel](https://www.youtube.com/channel/UCRDxYBCF60gsgxb0u9Z49_Q) to make your own giveaway bot")
+      .addField("Check out", "[This Channel](https://www.youtube.com/channel/UCU5OWSH6vuZ864TNuycvMzA) to make your own giveaway bot")
       .setTimestamp()
       .setFooter(`Command Requested By ${message.author.tag}`, client.user.displayAvatarURL());
     message.channel.send("**Sent the commands in Direct Messages! <a:emoji_84:881198170850336788>, Check DMs**");
