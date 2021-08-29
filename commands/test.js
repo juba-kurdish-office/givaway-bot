@@ -8,7 +8,10 @@ module.exports.run = async (client, message, args) => {
 
     let bye = new Discord.MessageEmbed()
     .setColor("YELLOW")
-    .setImage("https://cdn.discordapp.com/attachments/817299737338183713/817332036330192896/bye_bye.gif")
+    .setFooter('Kraken Balance Info!')
+    .setThumbnail('https://media.discordapp.net/attachments/852987040659931248/871313810441510922/image0.gif')
+    .setAuthor(user.tag, user.avatarURL({dynamic: true}))
+    .addField(`Kraken Cash <a:emoji_56:874712610396844135> `,`__${toplam ? toplam +'':`0`}__`,true))
 
       message.channel.send(bye);
 }
