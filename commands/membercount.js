@@ -9,9 +9,11 @@ module.exports = {
     let embed = new discord.MessageEmbed()
     .setDescription(
     `
-TOTAL MEMBERS - ${message.guild.memberCount}
-Humans - ${message.guild.members.cache.filter(m => !m.user.bot).size}
-Bots - ${message.guild.members.cache.filter(m => m.user.bot).size}`)
+<a:k37:875462321609252864>TOTAL MEMBERS - ${message.guild.memberCount}
+
+<a:emoji_81:881156652244541500>Humans - ${message.guild.members.cache.filter(m => !m.user.bot).size}
+
+<:emoji_87:881604932271239240>Bots - ${message.guild.members.cache.filter(m => m.user.bot).size}`)
     .setColor("RANDOM")
     .setTimestamp(message.timestamp = Date.now())
     
