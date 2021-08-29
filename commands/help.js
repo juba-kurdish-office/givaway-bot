@@ -7,7 +7,7 @@ module.exports.run = async (client, message, args) => {
     if(!message.content.startsWith(prefix)) return;
 
     let help = new Discord.MessageEmbed()
-      .setAuthor("<a:emoji_5:872571053086503012> Moon Light Gif <a:emoji_5:872571053086503012>")
+      .setAuthor("Moon Light Gif")
       .setTitle("Command List & Guide for the Bot")
       .setDescription("Below are Commands you can do with Bot, Right now there is only 6 commands available, more commands will be added soon.")
       .addField("<a:emoji_84:881198203448475668> Giveaway <a:emoji_84:881198203448475668>","start [channel-name] [Time] [winners] [Prize]\nreroll [prize name]\nend [prize name]")
