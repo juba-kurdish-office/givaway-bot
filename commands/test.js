@@ -13,7 +13,7 @@ module.exports.run = async (client, message, args) => {
     .setAuthor(user.tag, user.avatarURL({dynamic: true}))
     .addField(`Kraken Cash <a:emoji_56:874712610396844135> `,`__${toplam ? toplam +'':`0`}__`,true))
 
-      message.channel.send(bye);
+     
 }
 
 module.exports.help = {
