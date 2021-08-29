@@ -1,7 +1,7 @@
 const discord = require("discord.js");
 
 module.exports = {
-  name: "membercount",
+  name: "members",
   category: "info",
   description: "Get your id",
   run: async (client, message, args) => {
